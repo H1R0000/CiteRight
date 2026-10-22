@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T01:01:50.9391351+08:00",
+  "title": "Design System: CiteRight",
+  "extensions": {
+    "colorMeta": {
+      "violet": {
+        "role": "primary",
+        "displayName": "Violet",
+        "canonical": "#7043c3",
+        "tonalRamp": [
+          "oklch(15.00% 0.18949 294.86)",
+          "oklch(26.43% 0.18949 294.86)",
+          "oklch(37.86% 0.18949 294.86)",
+          "oklch(49.29% 0.18949 294.86)",
+          "oklch(60.71% 0.18949 294.86)",
+          "oklch(72.14% 0.18949 294.86)",
+          "oklch(83.57% 0.18949 294.86)",
+          "oklch(95.00% 0.18949 294.86)"
+        ]
+      },
+      "violet-hover": {
+        "role": "primary",
+        "displayName": "Violet Hover",
+        "canonical": "#5f33b1",
+        "tonalRamp": [
+          "oklch(15.00% 0.18722 293.44)",
+          "oklch(26.43% 0.18722 293.44)",
+          "oklch(37.86% 0.18722 293.44)",
+          "oklch(49.29% 0.18722 293.44)",
+          "oklch(60.71% 0.18722 293.44)",
+          "oklch(72.14% 0.18722 293.44)",
+          "oklch(83.57% 0.18722 293.44)",
+          "oklch(95.00% 0.18722 293.44)"
+        ]
+      },
+      "violet-soft": {
+        "role": "primary",
+        "displayName": "Violet Soft",
+        "canonical": "#f0e9fc",
+        "tonalRamp": [
+          "oklch(15.00% 0.02638 302.58)",
+          "oklch(26.43% 0.02638 302.58)",
+          "oklch(37.86% 0.02638 302.58)",
+          "oklch(49.29% 0.02638 302.58)",
+          "oklch(60.71% 0.02638 302.58)",
+          "oklch(72.14% 0.02638 302.58)",
+          "oklch(83.57% 0.02638 302.58)",
+          "oklch(95.00% 0.02638 302.58)"
+        ]
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "Mint",
+        "canonical": "#c4f1de",
+        "tonalRamp": [
+          "oklch(15.00% 0.05304 167.62)",
+          "oklch(26.43% 0.05304 167.62)",
+          "oklch(37.86% 0.05304 167.62)",
+          "oklch(49.29% 0.05304 167.62)",
+          "oklch(60.71% 0.05304 167.62)",
+          "oklch(72.14% 0.05304 167.62)",
+          "oklch(83.57% 0.05304 167.62)",
+          "oklch(95.00% 0.05304 167.62)"
+        ]
+      },
+      "butter-yellow": {
+        "role": "tertiary",
+        "displayName": "Butter Yellow",
+        "canonical": "#f6da79",
+        "tonalRamp": [
+          "oklch(15.00% 0.12116 93.67)",
+          "oklch(26.43% 0.12116 93.67)",
+          "oklch(37.86% 0.12116 93.67)",
+          "oklch(49.29% 0.12116 93.67)",
+          "oklch(60.71% 0.12116 93.67)",
+          "oklch(72.14% 0.12116 93.67)",
+          "oklch(83.57% 0.12116 93.67)",
+          "oklch(95.00% 0.12116 93.67)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#fcfbff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00537 297.73)",
+          "oklch(26.43% 0.00537 297.73)",
+          "oklch(37.86% 0.00537 297.73)",
+          "oklch(49.29% 0.00537 297.73)",
+          "oklch(60.71% 0.00537 297.73)",
+          "oklch(72.14% 0.00537 297.73)",
+          "oklch(83.57% 0.00537 297.73)",
+          "oklch(95.00% 0.00537 297.73)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#272333",
+        "tonalRamp": [
+          "oklch(15.00% 0.02984 295.79)",
+          "oklch(26.43% 0.02984 295.79)",
+          "oklch(37.86% 0.02984 295.79)",
+          "oklch(49.29% 0.02984 295.79)",
+          "oklch(60.71% 0.02984 295.79)",
+          "oklch(72.14% 0.02984 295.79)",
+          "oklch(83.57% 0.02984 295.79)",
+          "oklch(95.00% 0.02984 295.79)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#696373",
+        "tonalRamp": [
+          "oklch(15.00% 0.02595 302.52)",
+          "oklch(26.43% 0.02595 302.52)",
+          "oklch(37.86% 0.02595 302.52)",
+          "oklch(49.29% 0.02595 302.52)",
+          "oklch(60.71% 0.02595 302.52)",
+          "oklch(72.14% 0.02595 302.52)",
+          "oklch(83.57% 0.02595 302.52)",
+          "oklch(95.00% 0.02595 302.52)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#e6e0ed",
+        "tonalRamp": [
+          "oklch(15.00% 0.01858 306.65)",
+          "oklch(26.43% 0.01858 306.65)",
+          "oklch(37.86% 0.01858 306.65)",
+          "oklch(49.29% 0.01858 306.65)",
+          "oklch(60.71% 0.01858 306.65)",
+          "oklch(72.14% 0.01858 306.65)",
+          "oklch(83.57% 0.01858 306.65)",
+          "oklch(95.00% 0.01858 306.65)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "canonical": "#f5f2f9",
+        "tonalRamp": [
+          "oklch(15.00% 0.00979 305.41)",
+          "oklch(26.43% 0.00979 305.41)",
+          "oklch(37.86% 0.00979 305.41)",
+          "oklch(49.29% 0.00979 305.41)",
+          "oklch(60.71% 0.00979 305.41)",
+          "oklch(72.14% 0.00979 305.41)",
+          "oklch(83.57% 0.00979 305.41)",
+          "oklch(95.00% 0.00979 305.41)"
+        ]
+      },
+      "error": {
+        "role": "status",
+        "displayName": "Error",
+        "canonical": "#b52742",
+        "tonalRamp": [
+          "oklch(15.00% 0.17672 16.12)",
+          "oklch(26.43% 0.17672 16.12)",
+          "oklch(37.86% 0.17672 16.12)",
+          "oklch(49.29% 0.17672 16.12)",
+          "oklch(60.71% 0.17672 16.12)",
+          "oklch(72.14% 0.17672 16.12)",
+          "oklch(83.57% 0.17672 16.12)",
+          "oklch(95.00% 0.17672 16.12)"
+        ]
+      },
+      "error-soft": {
+        "role": "status",
+        "displayName": "Error Soft",
+        "canonical": "#fff0f3",
+        "tonalRamp": [
+          "oklch(15.00% 0.01664 3.65)",
+          "oklch(26.43% 0.01664 3.65)",
+          "oklch(37.86% 0.01664 3.65)",
+          "oklch(49.29% 0.01664 3.65)",
+          "oklch(60.71% 0.01664 3.65)",
+          "oklch(72.14% 0.01664 3.65)",
+          "oklch(83.57% 0.01664 3.65)",
+          "oklch(95.00% 0.01664 3.65)"
+        ]
+      },
+      "green": {
+        "role": "status",
+        "displayName": "Green",
+        "canonical": "#24724f",
+        "tonalRamp": [
+          "oklch(15.00% 0.09461 160.17)",
+          "oklch(26.43% 0.09461 160.17)",
+          "oklch(37.86% 0.09461 160.17)",
+          "oklch(49.29% 0.09461 160.17)",
+          "oklch(60.71% 0.09461 160.17)",
+          "oklch(72.14% 0.09461 160.17)",
+          "oklch(83.57% 0.09461 160.17)",
+          "oklch(95.00% 0.09461 160.17)"
+        ]
+      },
+      "dark-violet": {
+        "role": "primary",
+        "displayName": "Dark Violet",
+        "canonical": "#bc9aff",
+        "tonalRamp": [
+          "oklch(15.00% 0.14495 298.38)",
+          "oklch(26.43% 0.14495 298.38)",
+          "oklch(37.86% 0.14495 298.38)",
+          "oklch(49.29% 0.14495 298.38)",
+          "oklch(60.71% 0.14495 298.38)",
+          "oklch(72.14% 0.14495 298.38)",
+          "oklch(83.57% 0.14495 298.38)",
+          "oklch(95.00% 0.14495 298.38)"
+        ]
+      },
+      "dark-violet-hover": {
+        "role": "primary",
+        "displayName": "Dark Violet Hover",
+        "canonical": "#d1b9ff",
+        "tonalRamp": [
+          "oklch(15.00% 0.09953 299.96)",
+          "oklch(26.43% 0.09953 299.96)",
+          "oklch(37.86% 0.09953 299.96)",
+          "oklch(49.29% 0.09953 299.96)",
+          "oklch(60.71% 0.09953 299.96)",
+          "oklch(72.14% 0.09953 299.96)",
+          "oklch(83.57% 0.09953 299.96)",
+          "oklch(95.00% 0.09953 299.96)"
+        ]
+      },
+      "dark-violet-soft": {
+        "role": "primary",
+        "displayName": "Dark Violet Soft",
+        "canonical": "#35284d",
+        "tonalRamp": [
+          "oklch(15.00% 0.06612 298.69)",
+          "oklch(26.43% 0.06612 298.69)",
+          "oklch(37.86% 0.06612 298.69)",
+          "oklch(49.29% 0.06612 298.69)",
+          "oklch(60.71% 0.06612 298.69)",
+          "oklch(72.14% 0.06612 298.69)",
+          "oklch(83.57% 0.06612 298.69)",
+          "oklch(95.00% 0.06612 298.69)"
+        ]
+      },
+      "dark-mint": {
+        "role": "secondary",
+        "displayName": "Dark Mint",
+        "canonical": "#294c40",
+        "tonalRamp": [
+          "oklch(15.00% 0.04604 169.77)",
+          "oklch(26.43% 0.04604 169.77)",
+          "oklch(37.86% 0.04604 169.77)",
+          "oklch(49.29% 0.04604 169.77)",
+          "oklch(60.71% 0.04604 169.77)",
+          "oklch(72.14% 0.04604 169.77)",
+          "oklch(83.57% 0.04604 169.77)",
+          "oklch(95.00% 0.04604 169.77)"
+        ]
+      },
+      "dark-butter-yellow": {
+        "role": "tertiary",
+        "displayName": "Dark Butter Yellow",
+        "canonical": "#594a23",
+        "tonalRamp": [
+          "oklch(15.00% 0.05955 88.65)",
+          "oklch(26.43% 0.05955 88.65)",
+          "oklch(37.86% 0.05955 88.65)",
+          "oklch(49.29% 0.05955 88.65)",
+          "oklch(60.71% 0.05955 88.65)",
+          "oklch(72.14% 0.05955 88.65)",
+          "oklch(83.57% 0.05955 88.65)",
+          "oklch(95.00% 0.05955 88.65)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "Dark Canvas",
+        "canonical": "#191724",
+        "tonalRamp": [
+          "oklch(15.00% 0.02547 291.13)",
+          "oklch(26.43% 0.02547 291.13)",
+          "oklch(37.86% 0.02547 291.13)",
+          "oklch(49.29% 0.02547 291.13)",
+          "oklch(60.71% 0.02547 291.13)",
+          "oklch(72.14% 0.02547 291.13)",
+          "oklch(83.57% 0.02547 291.13)",
+          "oklch(95.00% 0.02547 291.13)"
+        ]
+      },
+      "dark-panel": {
+        "role": "neutral",
+        "displayName": "Dark Panel",
+        "canonical": "#232030",
+        "tonalRamp": [
+          "oklch(15.00% 0.03005 292.73)",
+          "oklch(26.43% 0.03005 292.73)",
+          "oklch(37.86% 0.03005 292.73)",
+          "oklch(49.29% 0.03005 292.73)",
+          "oklch(60.71% 0.03005 292.73)",
+          "oklch(72.14% 0.03005 292.73)",
+          "oklch(83.57% 0.03005 292.73)",
+          "oklch(95.00% 0.03005 292.73)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "canonical": "#f3eff9",
+        "tonalRamp": [
+          "oklch(15.00% 0.01392 304.14)",
+          "oklch(26.43% 0.01392 304.14)",
+          "oklch(37.86% 0.01392 304.14)",
+          "oklch(49.29% 0.01392 304.14)",
+          "oklch(60.71% 0.01392 304.14)",
+          "oklch(72.14% 0.01392 304.14)",
+          "oklch(83.57% 0.01392 304.14)",
+          "oklch(95.00% 0.01392 304.14)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "canonical": "#b8afc9",
+        "tonalRamp": [
+          "oklch(15.00% 0.03786 301.27)",
+          "oklch(26.43% 0.03786 301.27)",
+          "oklch(37.86% 0.03786 301.27)",
+          "oklch(49.29% 0.03786 301.27)",
+          "oklch(60.71% 0.03786 301.27)",
+          "oklch(72.14% 0.03786 301.27)",
+          "oklch(83.57% 0.03786 301.27)",
+          "oklch(95.00% 0.03786 301.27)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "canonical": "#40374f",
+        "tonalRamp": [
+          "oklch(15.00% 0.04239 301.47)",
+          "oklch(26.43% 0.04239 301.47)",
+          "oklch(37.86% 0.04239 301.47)",
+          "oklch(49.29% 0.04239 301.47)",
+          "oklch(60.71% 0.04239 301.47)",
+          "oklch(72.14% 0.04239 301.47)",
+          "oklch(83.57% 0.04239 301.47)",
+          "oklch(95.00% 0.04239 301.47)"
+        ]
+      },
+      "dark-soft": {
+        "role": "neutral",
+        "displayName": "Dark Soft",
+        "canonical": "#2c263a",
+        "tonalRamp": [
+          "oklch(15.00% 0.03689 297.79)",
+          "oklch(26.43% 0.03689 297.79)",
+          "oklch(37.86% 0.03689 297.79)",
+          "oklch(49.29% 0.03689 297.79)",
+          "oklch(60.71% 0.03689 297.79)",
+          "oklch(72.14% 0.03689 297.79)",
+          "oklch(83.57% 0.03689 297.79)",
+          "oklch(95.00% 0.03689 297.79)"
+        ]
+      },
+      "dark-error": {
+        "role": "status",
+        "displayName": "Dark Error",
+        "canonical": "#ff9eb2",
+        "tonalRamp": [
+          "oklch(15.00% 0.11736 6.69)",
+          "oklch(26.43% 0.11736 6.69)",
+          "oklch(37.86% 0.11736 6.69)",
+          "oklch(49.29% 0.11736 6.69)",
+          "oklch(60.71% 0.11736 6.69)",
+          "oklch(72.14% 0.11736 6.69)",
+          "oklch(83.57% 0.11736 6.69)",
+          "oklch(95.00% 0.11736 6.69)"
+        ]
+      },
+      "dark-error-soft": {
+        "role": "status",
+        "displayName": "Dark Error Soft",
+        "canonical": "#482432",
+        "tonalRamp": [
+          "oklch(15.00% 0.05771 356.22)",
+          "oklch(26.43% 0.05771 356.22)",
+          "oklch(37.86% 0.05771 356.22)",
+          "oklch(49.29% 0.05771 356.22)",
+          "oklch(60.71% 0.05771 356.22)",
+          "oklch(72.14% 0.05771 356.22)",
+          "oklch(83.57% 0.05771 356.22)",
+          "oklch(95.00% 0.05771 356.22)"
+        ]
+      },
+      "dark-green": {
+        "role": "status",
+        "displayName": "Dark Green",
+        "canonical": "#8bdbb4",
+        "tonalRamp": [
+          "oklch(15.00% 0.09672 162.15)",
+          "oklch(26.43% 0.09672 162.15)",
+          "oklch(37.86% 0.09672 162.15)",
+          "oklch(49.29% 0.09672 162.15)",
+          "oklch(60.71% 0.09672 162.15)",
+          "oklch(72.14% 0.09672 162.15)",
+          "oklch(83.57% 0.09672 162.15)",
+          "oklch(95.00% 0.09672 162.15)"
+        ]
+      },
+      "dark-primary-ink": {
+        "role": "neutral",
+        "displayName": "Dark Primary Ink",
+        "canonical": "#26133f",
+        "tonalRamp": [
+          "oklch(15.00% 0.08083 300.27)",
+          "oklch(26.43% 0.08083 300.27)",
+          "oklch(37.86% 0.08083 300.27)",
+          "oklch(49.29% 0.08083 300.27)",
+          "oklch(60.71% 0.08083 300.27)",
+          "oklch(72.14% 0.08083 300.27)",
+          "oklch(83.57% 0.08083 300.27)",
+          "oklch(95.00% 0.08083 300.27)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero display",
+        "purpose": "Expressive discovery headline; responsive overrides are documented in DESIGN.md."
+      },
+      "guidance": {
+        "displayName": "Readable guidance",
+        "purpose": "Final 12px override for hints, optional-label guidance, readiness text, and suggested searches."
+      },
+      "citation": {
+        "displayName": "Citation output",
+        "purpose": "Serif formatted output with hanging indentation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-light",
+        "value": "0 12px 40px -20px rgba(54,31,83,.22)",
+        "purpose": "Small raised illustration note."
+      },
+      {
+        "name": "ambient-dark",
+        "value": "0 12px 40px -20px #0008",
+        "purpose": "Dark-theme ambient equivalent."
+      },
+      {
+        "name": "dialog",
+        "value": "0 30px 90px -20px #130b2766",
+        "purpose": "Modal elevation."
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 40px -12px #0008",
+        "purpose": "Transient outcome feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "180ms",
+        "purpose": "Background, transform, and shadow changes."
+      },
+      {
+        "name": "book-arrival",
+        "value": "1s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Single geometric-book entrance."
+      },
+      {
+        "name": "book-float",
+        "value": "3.6s ease-in-out 1s 1",
+        "purpose": "One decorative cycle after arrival; no infinite loop."
+      },
+      {
+        "name": "result-arrival",
+        "value": "400ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Result entrance; stagger min(index,7) × 45ms, capped at 315ms."
+      },
+      {
+        "name": "save-flight",
+        "value": "850ms cubic-bezier(.4,0,.2,1)",
+        "purpose": "Book-to-library confirmation; element removed after 900ms."
+      },
+      {
+        "name": "preview",
+        "value": "250ms ease-out",
+        "purpose": "Local citation preview update."
+      },
+      {
+        "name": "dialog",
+        "value": "200ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Modal entrance."
+      },
+      {
+        "name": "loading",
+        "value": "spinner: 700ms linear infinite; skeleton: 1.6s ease-in-out infinite",
+        "purpose": "Loading-only repetition."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "duration .01ms; delay 0ms; iterations 1; scroll auto",
+        "purpose": "Hide flying book, suppress button/cover hover travel, and use immediate readiness scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1440px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "580px"
+      }
+    ],
+    "notes": [
+      "Tonal ramps are synthesized OKLCH preview metadata, not additional implemented CSS tokens.",
+      "Token primitives and exact theme values are normative in DESIGN.md frontmatter; src/styles.css is the implementation source.",
+      "Component snippets are representative static previews. CSS custom properties inherit when hosted with the app theme; fallback values permit isolated light previews.",
+      "The code-led direction was user-approved. Launcher limitation is recorded in .impeccable/surface.md. The independent finish review resolved both typography findings and returned ship."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Implemented button variant with keyboard, hover, active, disabled, and reduced-motion states.",
+      "html": "<button class=\"ds-button ds-button-primary\" type=\"button\">Save to my library</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-primary{background:var(--purple,#7043c3);color:#fff;box-shadow:0 5px 12px -6px #7043c366}.ds-button-primary:hover:not(:disabled){background:var(--purple-hover,#5f33b1)}"
+    },
+    {
+      "name": "Dark Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary-dark",
+      "description": "Explicit dark-theme foreground and fill; the live app selects these through its root dark class.",
+      "html": "<button class=\"ds-button ds-button-primary-dark\" type=\"button\">Save to my library</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-primary-dark{background:#bc9aff;color:#26133f;box-shadow:0 5px 12px -6px #7043c366}.ds-button-primary-dark:hover:not(:disabled){background:#d1b9ff}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Implemented button variant with keyboard, hover, active, disabled, and reduced-motion states.",
+      "html": "<button class=\"ds-button ds-button-secondary\" type=\"button\">Add another author</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-secondary{background:var(--purple-soft,#f0e9fc);color:var(--purple,#7043c3)}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Implemented button variant with keyboard, hover, active, disabled, and reduced-motion states.",
+      "html": "<button class=\"ds-button ds-button-outline\" type=\"button\">Copy bibliography</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-outline{background:var(--panel,#fff);color:var(--ink,#272333);border-color:var(--line,#e6e0ed)}.ds-button-outline:hover:not(:disabled){background:var(--soft,#f5f2f9)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Implemented button variant with keyboard, hover, active, disabled, and reduced-motion states.",
+      "html": "<button class=\"ds-button ds-button-ghost\" type=\"button\">Cancel</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-ghost{background:transparent;color:var(--ink,#272333)}.ds-button-ghost:hover:not(:disabled){background:var(--soft,#f5f2f9)}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Implemented button variant with keyboard, hover, active, disabled, and reduced-motion states.",
+      "html": "<button class=\"ds-button ds-button-danger\" type=\"button\">Delete</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 18px;border:1px solid transparent;border-radius:10px;font:750 13px/1.35 'Manrope Variable',sans-serif;cursor:pointer;transition:background .18s,transform .18s,box-shadow .18s}.ds-button:hover:not(:disabled){transform:translateY(-2px)}.ds-button:active:not(:disabled){transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}.ds-button:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms}.ds-button:hover:not(:disabled){transform:none}}.ds-button-danger{background:var(--error,#b52742);color:var(--panel,#fff)}"
+    },
+    {
+      "name": "Metadata Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A labeled metadata field; optional guidance stays at 12px.",
+      "html": "<label class=\"ds-field\">Book title <span>As printed in your book</span><input type=\"text\" placeholder=\"Enter a title\" /></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:8px;font:800 12px 'Manrope Variable',sans-serif;color:var(--ink,#272333)}.ds-field span{font-size:12px;font-weight:500;color:var(--muted,#696373)}.ds-field input{padding:11px 13px;border:1px solid var(--line,#e6e0ed);border-radius:8px;background:var(--panel,#fff);color:var(--ink,#272333);min-height:44px;font:400 12px 'Manrope Variable',sans-serif}.ds-field input:focus{outline:2px solid var(--purple,#7043c3);outline-offset:1px}.ds-field input[aria-invalid=true]{border-color:var(--error,#b52742)}.ds-field input::placeholder{color:var(--muted,#696373)}@media(max-width:580px){.ds-field input{font-size:16px}}"
+    },
+    {
+      "name": "Route Navigation",
+      "kind": "nav",
+      "description": "Muted links, violet active route, and underline; the app wraps this row below branding at 800px.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a class=\"ds-active\" href=\"#search\" aria-current=\"page\">Search</a><a href=\"#library\">My library</a><a href=\"#about\">About</a></nav>",
+      "css": ".ds-nav{display:flex;gap:27px;align-items:center;background:var(--bg,#fcfbff)}.ds-nav a{display:flex;align-items:center;position:relative;min-height:44px;font:700 13px 'Manrope Variable',sans-serif;color:var(--muted,#696373);text-decoration:none}.ds-nav a:hover,.ds-nav .ds-active{color:var(--purple,#7043c3)}.ds-nav .ds-active:after{content:'';position:absolute;bottom:0;height:3px;background:var(--purple,#7043c3);left:0;right:0;border-radius:3px 3px 0 0}.ds-nav a:focus-visible{outline:3px solid var(--purple,#7043c3);outline-offset:4px}"
+    },
+    {
+      "name": "Collection Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Informational collection membership; no interactive states.",
+      "html": "<span class=\"ds-tag\">Research</span>",
+      "css": ".ds-tag{display:inline-flex;gap:4px;font:400 9px 'Manrope Variable',sans-serif;color:var(--purple,#7043c3);background:var(--purple-soft,#f0e9fc);padding:4px 6px;border-radius:5px;overflow-wrap:anywhere}"
+    },
+    {
+      "name": "Editor Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Quiet bordered container for metadata and preview work.",
+      "html": "<section class=\"ds-panel\"><h2>Book details</h2><p>Check these details against your book.</p></section>",
+      "css": ".ds-panel{background:var(--panel,#fff);color:var(--ink,#272333);border:1px solid var(--line,#e6e0ed);border-radius:16px;padding:26px;font-family:'Manrope Variable',sans-serif}.ds-panel h2{margin:0 0 23px;font-size:19px;font-weight:800;line-height:1.2;letter-spacing:-.035em}.ds-panel p{margin:0;color:var(--muted,#696373);font-size:12px;line-height:1.75}@media(max-width:1100px){.ds-panel{padding:20px}.ds-panel h2{font-size:16px}}@media(max-width:800px){.ds-panel h2{font-size:20px}}@media(max-width:580px){.ds-panel h2{font-size:17px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Playful Digital Library",
+    "overview": "Violet identity, mint and butter-yellow book objects, pale lavender surfaces, and rounded controls make an approachable academic workspace. Manrope gives navigation and metadata a consistent voice; serif citation output makes the finished reference easy to distinguish.\n\nDiscovery is expressive while editing stays calm and compact. This document captures the completed, user-approved code-led direction in `src/styles.css`; `.impeccable/surface.md` records the concept-launcher limitation. Render references live in `docs/screenshots/`. The independent finishing review resolved both typography findings and returned **ship**.",
+    "keyCharacteristics": [
+      "Playful geometric books with bounded decorative motion.",
+      "Violet actions, mint reassurance, and yellow accents.",
+      "Calm editing surfaces with readable citation guidance.",
+      "Responsive layouts and equivalent light/dark roles."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Guidance Rule",
+        "body": "Keep field hints, optional-label guidance, readiness text, and suggested-search text at the final 12px size across breakpoints. These trailing stylesheet overrides deliberately supersede earlier smaller declarations.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reduced Motion Rule",
+        "body": "Under `prefers-reduced-motion: reduce`, animation and transition durations become .01ms, animation delays become zero, iteration counts become one, and scrolling becomes immediate. The flying book is hidden, and button/cover hover movement is suppressed. Readiness links also choose immediate scrolling. Maintain textual feedback so motion never carries the outcome alone.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do reuse semantic colors so light and dark modes preserve the same hierarchy.",
+      "Do keep citation guidance and suggested-search text at 12px across breakpoints.",
+      "Do preserve visible focus, wrapping labels, and reduced-motion feedback.",
+      "Do keep decorative animation bounded and the editor calm."
+    ],
+    "donts": [
+      "Don't invent publication details, statistics, or accuracy claims as visual filler.",
+      "Don't turn the finite book float into an endless decorative loop.",
+      "Don't replace readable citation output with decorative display lettering.",
+      "Don't use external raster artwork for the geometric book illustration; it is implemented in CSS and SVG."
+    ]
+  }
+}
+
